@@ -1,11 +1,16 @@
+# ETRI on-road V2I logs · [한글 버전은 아래에 있습니다](#korean)
 
-차량이 주행하는 동안 송신한 데이터를 인프라에서 수신한 ETRI 원내 실도로 수집데이터 입니다.
-- ultimestamp에 sequence 번호가 입력되어 있으니 이를 기반으로 실주행에서 패킷이 얼마나 Loss 되는지 살펴볼 수 있습니다. 
-
----
-
-# English
+## English
 
 This directory contains on-road data collected at the ETRI campus. The infrastructure receiver recorded data transmitted by a vehicle while it was driving.
 
 - The `ulTimeStamp` field contains the packet sequence number and can be used to examine packet losses observed during the road test.
+
+---
+
+<a id="korean"></a>
+
+## 한글 버전
+
+차량이 주행하는 동안 송신한 데이터를 인프라에서 수신한 ETRI 원내 실도로 수집데이터 입니다.
+- ultimestamp에 sequence 번호가 입력되어 있으니 이를 기반으로 실주행에서 패킷이 얼마나 Loss 되는지 살펴볼 수 있습니다.
